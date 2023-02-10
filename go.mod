@@ -59,7 +59,7 @@ require (
 	k8s.io/api v0.25.4
 	k8s.io/apimachinery v0.25.4
 	k8s.io/client-go v0.25.4
-	k8s.io/code-generator v0.25.4
+	k8s.io/code-generator v0.26.1
 	knative.dev/pkg v0.0.0-20221123011842-b78020c16606
 
 )
@@ -460,7 +460,7 @@ require (
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	honnef.co/go/tools v0.4.0-0.dev.0.20221209223220-58c4d7e4b720 // indirect
 	k8s.io/apiextensions-apiserver v0.25.2 // indirect
-	k8s.io/gengo v0.0.0-20220613173612-397b4ae3bce7 // indirect
+	k8s.io/gengo v0.0.0-20220902162205-c0856e24416d // indirect
 	k8s.io/klog/v2 v2.80.1 // indirect
 	k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280 // indirect
 	k8s.io/utils v0.0.0-20221012122500-cfd413dd9e85 // indirect
