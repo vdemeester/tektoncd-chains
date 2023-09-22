@@ -26,19 +26,19 @@ require (
 	github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.7.3
 	github.com/spiffe/go-spiffe/v2 v2.1.6
 	github.com/stretchr/testify v1.8.4
-	github.com/tektoncd/pipeline v0.51.0
+	github.com/tektoncd/pipeline v0.52.0
 	github.com/tektoncd/plumbing v0.0.0-20230907180608-5625252a2de1
 	go.uber.org/zap v1.26.0
 	gocloud.dev v0.34.0
 	gocloud.dev/docstore/mongodocstore v0.34.0
 	gocloud.dev/pubsub/kafkapubsub v0.34.0
 	golang.org/x/crypto v0.13.0
-	google.golang.org/grpc v1.58.1
+	google.golang.org/grpc v1.58.2
 	google.golang.org/protobuf v1.31.0
-	k8s.io/api v0.27.3
-	k8s.io/apimachinery v0.27.3
-	k8s.io/client-go v0.27.3
-	k8s.io/code-generator v0.26.5
+	k8s.io/api v0.28.2
+	k8s.io/apimachinery v0.28.2
+	k8s.io/client-go v0.28.2
+	k8s.io/code-generator v0.28.2
 	knative.dev/pkg v0.0.0-20230718152110-aef227e72ead
 	sigs.k8s.io/yaml v1.3.0
 )
@@ -229,7 +229,7 @@ require (
 	github.com/golangci/revgrep v0.0.0-20220804021717-745bb2f7c2e6 // indirect
 	github.com/golangci/unconvert v0.0.0-20180507085042-28b1c447d1f4 // indirect
 	github.com/google/certificate-transparency-go v1.1.6 // indirect
-	github.com/google/gnostic v0.6.9 // indirect
+	github.com/google/gnostic-models v0.6.8 // indirect
 	github.com/google/go-containerregistry/pkg/authn/kubernetes v0.0.0-20230516205744-dbecb1de8cfa // indirect
 	github.com/google/go-github/v53 v53.2.0 // indirect
 	github.com/google/go-querystring v1.1.0 // indirect
@@ -456,7 +456,7 @@ require (
 	k8s.io/apiextensions-apiserver v0.26.5 // indirect
 	k8s.io/gengo v0.0.0-20221011193443-fad74ee6edd9 // indirect
 	k8s.io/klog/v2 v2.100.1 // indirect
-	k8s.io/kube-openapi v0.0.0-20230515203736-54b630e78af5 // indirect
+	k8s.io/kube-openapi v0.0.0-20230717233707-2695361300d9 // indirect
 	k8s.io/utils v0.0.0-20230505201702-9f6742963106 // indirect
 	mvdan.cc/gofumpt v0.5.0 // indirect
 	mvdan.cc/interfacer v0.0.0-20180901003855-c20040233aed // indirect
