@@ -40,7 +40,7 @@ require (
 	k8s.io/client-go v0.27.3
 	k8s.io/code-generator v0.26.5
 	knative.dev/pkg v0.0.0-20230718152110-aef227e72ead
-	sigs.k8s.io/yaml v1.3.0
+	sigs.k8s.io/yaml v1.4.0
 )
 
 require (
