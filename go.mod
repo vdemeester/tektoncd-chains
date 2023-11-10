@@ -23,7 +23,7 @@ require (
 	github.com/sigstore/sigstore/pkg/signature/kms/aws v1.7.3
 	github.com/sigstore/sigstore/pkg/signature/kms/azure v1.7.3
 	github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.7.3
-	github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.7.3
+	github.com/sigstore/sigstore/pkg/signature/kms/hashivault v1.7.5
 	github.com/spiffe/go-spiffe/v2 v2.1.6
 	github.com/stretchr/testify v1.8.4
 	github.com/tektoncd/pipeline v0.52.0
@@ -32,7 +32,7 @@ require (
 	gocloud.dev v0.34.0
 	gocloud.dev/docstore/mongodocstore v0.34.0
 	gocloud.dev/pubsub/kafkapubsub v0.34.0
-	golang.org/x/crypto v0.13.0
+	golang.org/x/crypto v0.14.0
 	google.golang.org/grpc v1.58.2
 	google.golang.org/protobuf v1.31.0
 	k8s.io/api v0.27.3
@@ -257,7 +257,7 @@ require (
 	github.com/hashicorp/go-version v1.6.0 // indirect
 	github.com/hashicorp/golang-lru v1.0.2 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
-	github.com/hashicorp/vault/api v1.9.2 // indirect
+	github.com/hashicorp/vault/api v1.10.0 // indirect
 	github.com/hexops/gotextdiff v1.0.3 // indirect
 	github.com/imdario/mergo v0.3.15 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
@@ -427,11 +427,11 @@ require (
 	golang.org/x/exp v0.0.0-20230510235704-dd950f8aeaea // indirect
 	golang.org/x/exp/typeparams v0.0.0-20230307190834-24139beb5833 // indirect
 	golang.org/x/mod v0.12.0 // indirect
-	golang.org/x/net v0.14.0 // indirect
+	golang.org/x/net v0.17.0 // indirect
 	golang.org/x/oauth2 v0.11.0 // indirect
 	golang.org/x/sync v0.3.0 // indirect
-	golang.org/x/sys v0.12.0 // indirect
-	golang.org/x/term v0.12.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/term v0.13.0 // indirect
 	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	golang.org/x/tools v0.12.0 // indirect
