@@ -36,7 +36,7 @@ require (
 	google.golang.org/grpc v1.59.0
 	google.golang.org/protobuf v1.31.0
 	k8s.io/api v0.28.3
-	k8s.io/apimachinery v0.28.3
+	k8s.io/apimachinery v0.28.4
 	k8s.io/client-go v0.28.3
 	k8s.io/code-generator v0.26.5
 	knative.dev/pkg v0.0.0-20231011193800-bd99f2f98be7
