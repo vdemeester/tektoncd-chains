@@ -17,6 +17,7 @@ With `sloglint` you can enforce various rules for `log/slog` based on your prefe
 
 * Enforce not mixing key-value pairs and attributes (default)
 * Enforce using either key-value pairs only or attributes only (optional)
+* Enforce not using global loggers (optional)
 * Enforce using methods that accept a context (optional)
 * Enforce using static log messages (optional)
 * Enforce using constants instead of raw keys (optional)
@@ -70,6 +71,17 @@ In contrast, the `attr-only` option causes `sloglint` to report any use of key-v
 slog.Info("a user has logged in", "user_id", 42) // sloglint: key-value pairs should not be used
 ```
 
+### No global
+
+Some projects prefer to pass loggers as explicit dependencies.
+The `no-global` option causes `sloglint` to report the usage of global loggers.
+
+```go
+slog.Info("a user has logged in", "user_id", 42) // sloglint: global logger should not be used
+```
+
+Possible values are `all` (report all global loggers) and `default` (report only the default `slog` logger).
+
 ### Context only
 
 Some `slog.Handler` implementations make use of the given `context.Context` (e.g. to access context values).
@@ -77,14 +89,10 @@ For them to work properly, you need to pass a context to all logger calls.
 The `context-only` option causes `sloglint` to report the use of methods without a context:
 
 ```go
-slog.Info("a user has logged in") // sloglint: methods without a context should not be used
+slog.Info("a user has logged in") // sloglint: InfoContext should be used instead
 ```
 
-This report can be fixed by using the equivalent method with the `Context` suffix:
-
-```go
-slog.InfoContext(ctx, "a user has logged in")
-```
+Possible values are `all` (report all contextless calls) and `scope` (report only if a context exists in the scope of the outermost function).
 
 ### Static messages
 
